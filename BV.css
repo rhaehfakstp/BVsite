@@ -1,0 +1,56 @@
+:root {
+  --text-color: black;
+  --background-color: rgb(243, 210, 210);
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color : var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 8px 14px;
+}
+
+.navbar__logo {
+  margin-left: 50px;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-right: 50px;
+}
+
+.navbar__menu li {
+  padding: 8px 14px;
+}
+
+.navbar__menu li:hover{
+  background-color: dimgray;
+  border-radius: 4px;
+}
+
+.main {
+  display: flex;
+  width: 2000px;
+  height: 1000px;
+}
+
+#map {
+  width: 1500px;
+  height: 1000px;
+}
+
+#map .content__data {
+
+}

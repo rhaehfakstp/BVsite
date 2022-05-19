@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="BV.css">
+  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=vga9chm4oq"></script>
+  <title>BV</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <i class=""></i>
+      <a herf=""></a>
+    </div>
+
+    <ul class="navbar__menu">
+      <li><a href="">공지사항</a></li>
+      <li><a href="">소개</a></li>
+      <li><a href="">자료실</a></li>
+      <li><a href="">고객소리</a></li>
+      <li><a href="">ABOUT</a></li>
+    </ul>
+  </nav>
+
+    <div id="map"></div>
+
+    <script>
+      var mapOptions = {
+          center: new naver.maps.LatLng(37.499290, 127.118976),
+          zoom: 17
+      };
+      
+      var map = new naver.maps.Map('map', mapOptions);
+      
+      var map = new naver.maps.Map('map', {
+              scaleControl: false,
+              logoControl: false,
+              mapDataControl: false,
+              zoomControl: true,
+              minZoom: 6
+          });
+          
+      </script>
+    
+    <div class="content__data">
+      <h2>이곳에 데이터가 들어갑니다.</h2>
+    </div>
+  </div>
+</body>
+</html>
